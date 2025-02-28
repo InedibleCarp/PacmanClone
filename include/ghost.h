@@ -3,8 +3,9 @@
 
 class Ghost {
 public:
-    Ghost(int id);
+    explicit Ghost(int id);
     void update();  // Update ghost AI logic
+
 private:
     int ghostId;
 };
